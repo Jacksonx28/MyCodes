@@ -1,0 +1,126 @@
+.pfp {
+    border-radius: 80%;
+    width: 30%;
+    height: auto;
+}
+
+.middle {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Raleway, sans-serif;
+}
+
+.btn {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+
+.animation-element.slide-left {
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(-20%, 0px, 0px);
+}
+
+.animation-element.slide-left.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.animation-element.slide-right {
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(20%, 0, 0);
+}
+
+.animation-element.slide-right.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.animation-element.slide-up {
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(0, 20%, 0);
+}
+
+.animation-element.slide-up.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.fourth-row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.motto {
+    font-size: 40px;
+    font-family: oswald, oswald-medium, sans-serif;
+    color: #ffc03a;
+    font-weight: 700;
+    text-align: left;
+}
+
+.style-text {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.subscribe {
+    font-family: oswald-medium, oswald, sans-serif;
+    font-size: 22px;
+}
+
+.style-text-2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/* .try{
+    position: relative;
+} */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+    
+    .dropdown {
+        display: none;
+    }
+
+   .breadcrumb{
+    position: relative;
+   }
+
+    .pic{
+        display: none;
+    }
+}
