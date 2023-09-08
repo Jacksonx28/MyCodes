@@ -1,2 +1,2 @@
-# MyCodes
-Here are a list of codes files i've made myself.
+# Portfolio
+Raw coded my personal portfolio site.
